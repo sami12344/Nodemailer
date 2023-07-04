@@ -10,7 +10,7 @@ app.get('/', (req: Request, res: Response): void => {
     toGetgmail: `to get email from gmail, go to route /gmail and send json data in name, phone, email,`,
     dataStructure: {
       name: `John Doe`,
-      phone: 551546464,
+      phone: "551546464",
       email: `johndoe123456@gmail.com`,
     },
     routes: ['/', '/etherealemail','/gmail'],
